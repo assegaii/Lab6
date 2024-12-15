@@ -26,6 +26,6 @@ int main() {
     
     controller.importDocument("input.svg");
 
-
+    std::cin.get();
     return 0;
 }
