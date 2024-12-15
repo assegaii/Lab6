@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Study/C++/Labs/Lab6/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/Study/C++/Labs/Lab6/include -static-libgcc -static-libstdc++ -std=gnu++17 -std=gnu++17 -o CMakeFiles\\VectorGraphicEditor.dir\\main.cpp.obj -c D:\\Study\\C++\\Labs\\Lab6\\main.cpp",
+  "file": "D:\\Study\\C++\\Labs\\Lab6\\main.cpp",
+  "output": "CMakeFiles\\VectorGraphicEditor.dir\\main.cpp.obj"
+}
+]
