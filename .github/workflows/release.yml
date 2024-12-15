@@ -37,7 +37,6 @@ jobs:
           key: ${{ runner.os }}-vcpkg-boost-${{ hashFiles('**/vcpkg.json')}}
       - run: git clone https://github.com/microsoft/vcpkg.git
       - run: ./vcpkg/bootstrap-vcpkg.bat
-      - run: ./vcpkg/vcpkg install boost-test
         
       - run: cmake . -DPATCH_VERSION=${{ github.run_number }} -D CMAKE_TOOLCHAIN_FILE=./vcpkg/scripts/buildsystems/vcpkg.cmake -D CMAKE_CXX_COMPILER=g++
       - run: cmake --build .
