@@ -20,7 +20,7 @@ include_directories(include)
 add_executable(VectorGraphicEditor main.cpp)
 
 if(MSVC)
-    
+    install(TARGETS VectorGraphicEditor DESTINATION bin)
     target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX)
     set_target_properties(VectorGraphicEditor PROPERTIES 
     OUTPUT_NAME "VectorGraphicEditor-${PROJECT_VESRION}-Windows"
