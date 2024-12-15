@@ -1,21 +1,3 @@
 # ninja log v6
-20	734	7559665676778926	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-734	1519	7559665683920776	VectorGraphicEditor.exe	7162b662b28538f
-21	1244	7559796277230903	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-1244	1758	7559796289456098	VectorGraphicEditor.exe	7162b662b28538f
-30	803	7559799570501318	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-804	1572	7559799578230969	VectorGraphicEditor.exe	7162b662b28538f
-25	756	7559800564630970	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-756	1166	7559800571949704	VectorGraphicEditor.exe	7162b662b28538f
-26	762	7559800968065080	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-762	1126	7559800975431149	VectorGraphicEditor.exe	7162b662b28538f
-28	793	7559801652563131	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-794	1196	7559801660224942	VectorGraphicEditor.exe	7162b662b28538f
-23	921	7559802328192374	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-921	1396	7559802337166020	VectorGraphicEditor.exe	7162b662b28538f
-23	815	7559803152761257	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-815	1355	7559803160686238	VectorGraphicEditor.exe	7162b662b28538f
-24	805	7559804961672943	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
-805	1221	7559804969491478	VectorGraphicEditor.exe	7162b662b28538f
 25	838	7559810890529394	CMakeFiles/VectorGraphicEditor.dir/main.cpp.obj	84bad7a1c154daf1
 839	1212	7559810898665864	VectorGraphicEditor.exe	7162b662b28538f

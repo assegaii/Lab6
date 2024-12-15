@@ -22,7 +22,7 @@ add_executable(VectorGraphicEditor main.cpp)
 if(MSVC)
     
     target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX)
-    
+    set_target_properties(VectorGraphicEditor PROPERTIES OUTPUT_NAME "VectorGraphicEditor-${PROJECT_VESRION}-Windows")
     set(CPACK_GENERATOR ZIP)
 
 elseif(UNIX)
