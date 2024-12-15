@@ -22,8 +22,9 @@ add_executable(VectorGraphicEditor main.cpp)
 if(MSVC)
     
     target_compile_options(${PROJECT_NAME} PRIVATE /W4 /WX)
-    set_target_properties(VectorGraphicEditor PROPERTIES OUTPUT_NAME "VectorGraphicEditor-${PROJECT_VESRION}-Windows")
-    set_target_properties(VectorGraphicEditor RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
+    set_target_properties(VectorGraphicEditor PROPERTIES 
+    OUTPUT_NAME "VectorGraphicEditor-${PROJECT_VESRION}-Windows"
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}")
     set(CPACK_GENERATOR ZIP)
 
 elseif(UNIX)
